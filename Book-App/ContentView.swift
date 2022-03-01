@@ -35,7 +35,7 @@ struct ContentView: View {
                     EditButton()
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: addBook) {
+                    NavigationLink(destination: AddNewBookView()) {
                         Label("Add Item", systemImage: "plus")
                     }
                 }
@@ -43,11 +43,17 @@ struct ContentView: View {
         }
     }
     
-    func addBook() {
-        
-    }
-    
     func deleteBook(offsets: IndexSet) {
+        withAnimation {
+            offsets.map { books[$0] }.forEach(viewContext.delete)
+
+            do {
+                try viewContext.save()
+            } catch {
+                let nsError = error as NSError
+                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+            }
+        }
         
     }
 }

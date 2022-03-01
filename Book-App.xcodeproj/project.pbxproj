@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C113D8C227CD0CD40026BD7F /* AddNewBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113D8C127CD0CD40026BD7F /* AddNewBookView.swift */; };
 		C1E3316D27CCDD6000E68247 /* Book_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E3316C27CCDD6000E68247 /* Book_AppApp.swift */; };
 		C1E3316F27CCDD6000E68247 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E3316E27CCDD6000E68247 /* ContentView.swift */; };
 		C1E3317127CCDD6000E68247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E3317027CCDD6000E68247 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C113D8C127CD0CD40026BD7F /* AddNewBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBookView.swift; sourceTree = "<group>"; };
 		C1E3316927CCDD6000E68247 /* Book-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E3316C27CCDD6000E68247 /* Book_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book_AppApp.swift; sourceTree = "<group>"; };
 		C1E3316E27CCDD6000E68247 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				C1E3317527CCDD6000E68247 /* Persistence.swift */,
 				C1E3317727CCDD6000E68247 /* Book_App.xcdatamodeld */,
 				C1E3317227CCDD6000E68247 /* Preview Content */,
+				C113D8C127CD0CD40026BD7F /* AddNewBookView.swift */,
 			);
 			path = "Book-App";
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1E3317927CCDD6000E68247 /* Book_App.xcdatamodeld in Sources */,
+				C113D8C227CD0CD40026BD7F /* AddNewBookView.swift in Sources */,
 				C1E3317627CCDD6000E68247 /* Persistence.swift in Sources */,
 				C1E3316F27CCDD6000E68247 /* ContentView.swift in Sources */,
 				C1E3316D27CCDD6000E68247 /* Book_AppApp.swift in Sources */,
