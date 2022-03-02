@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C113D8C227CD0CD40026BD7F /* AddNewBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113D8C127CD0CD40026BD7F /* AddNewBookView.swift */; };
+		C1793E2127CF6915008E4662 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1793E2027CF6915008E4662 /* ImagePicker.swift */; };
+		C19C2FC127CFA0020049236B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19C2FC027CFA0020049236B /* Extensions.swift */; };
 		C1E3316D27CCDD6000E68247 /* Book_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E3316C27CCDD6000E68247 /* Book_AppApp.swift */; };
 		C1E3316F27CCDD6000E68247 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E3316E27CCDD6000E68247 /* ContentView.swift */; };
 		C1E3317127CCDD6000E68247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E3317027CCDD6000E68247 /* Assets.xcassets */; };
@@ -18,6 +20,9 @@
 
 /* Begin PBXFileReference section */
 		C113D8C127CD0CD40026BD7F /* AddNewBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBookView.swift; sourceTree = "<group>"; };
+		C1793E2027CF6915008E4662 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		C1793E2227CF6B25008E4662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C19C2FC027CFA0020049236B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C1E3316927CCDD6000E68247 /* Book-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E3316C27CCDD6000E68247 /* Book_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book_AppApp.swift; sourceTree = "<group>"; };
 		C1E3316E27CCDD6000E68247 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +62,7 @@
 		C1E3316B27CCDD6000E68247 /* Book-App */ = {
 			isa = PBXGroup;
 			children = (
+				C1793E2227CF6B25008E4662 /* Info.plist */,
 				C1E3316C27CCDD6000E68247 /* Book_AppApp.swift */,
 				C1E3316E27CCDD6000E68247 /* ContentView.swift */,
 				C1E3317027CCDD6000E68247 /* Assets.xcassets */,
@@ -64,6 +70,8 @@
 				C1E3317727CCDD6000E68247 /* Book_App.xcdatamodeld */,
 				C1E3317227CCDD6000E68247 /* Preview Content */,
 				C113D8C127CD0CD40026BD7F /* AddNewBookView.swift */,
+				C19C2FC027CFA0020049236B /* Extensions.swift */,
+				C1793E2027CF6915008E4662 /* ImagePicker.swift */,
 			);
 			path = "Book-App";
 			sourceTree = "<group>";
@@ -149,8 +157,10 @@
 				C1E3317927CCDD6000E68247 /* Book_App.xcdatamodeld in Sources */,
 				C113D8C227CD0CD40026BD7F /* AddNewBookView.swift in Sources */,
 				C1E3317627CCDD6000E68247 /* Persistence.swift in Sources */,
+				C1793E2127CF6915008E4662 /* ImagePicker.swift in Sources */,
 				C1E3316F27CCDD6000E68247 /* ContentView.swift in Sources */,
 				C1E3316D27CCDD6000E68247 /* Book_AppApp.swift in Sources */,
+				C19C2FC127CFA0020049236B /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +294,8 @@
 				DEVELOPMENT_TEAM = N2A6GX22K7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Book-App/Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app wants using your photos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,6 +326,8 @@
 				DEVELOPMENT_TEAM = N2A6GX22K7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Book-App/Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app wants using your photos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
