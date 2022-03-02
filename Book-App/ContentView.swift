@@ -25,6 +25,7 @@ struct ContentView: View {
                     NavigationLink {
                         Text("WIP \(book.name!)")
                         Image(uiImage: UIImage(data: book.image!)!)
+                            .resizable()
                             .frame(width: 50, height: 50)
                     } label: {
                         Text(book.name!)
