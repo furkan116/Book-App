@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C113D8C227CD0CD40026BD7F /* AddNewBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113D8C127CD0CD40026BD7F /* AddNewBookView.swift */; };
+		C1293FBD27D0C852006CF6BA /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1293FBC27D0C852006CF6BA /* BookView.swift */; };
 		C1793E2127CF6915008E4662 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1793E2027CF6915008E4662 /* ImagePicker.swift */; };
 		C19C2FC127CFA0020049236B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19C2FC027CFA0020049236B /* Extensions.swift */; };
 		C1E3316D27CCDD6000E68247 /* Book_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E3316C27CCDD6000E68247 /* Book_AppApp.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		C113D8C127CD0CD40026BD7F /* AddNewBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBookView.swift; sourceTree = "<group>"; };
+		C1293FBC27D0C852006CF6BA /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		C1793E2027CF6915008E4662 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		C1793E2227CF6B25008E4662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C19C2FC027CFA0020049236B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				C113D8C127CD0CD40026BD7F /* AddNewBookView.swift */,
 				C19C2FC027CFA0020049236B /* Extensions.swift */,
 				C1793E2027CF6915008E4662 /* ImagePicker.swift */,
+				C1293FBC27D0C852006CF6BA /* BookView.swift */,
 			);
 			path = "Book-App";
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				C1E3316F27CCDD6000E68247 /* ContentView.swift in Sources */,
 				C1E3316D27CCDD6000E68247 /* Book_AppApp.swift in Sources */,
 				C19C2FC127CFA0020049236B /* Extensions.swift in Sources */,
+				C1293FBD27D0C852006CF6BA /* BookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

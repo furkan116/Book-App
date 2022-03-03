@@ -29,6 +29,7 @@ struct AddNewBookView: View {
                 self.showSheet.toggle()
             }) {
                 Text("Choose Image")
+                    .foregroundColor(Color.accentColor)
             }
             HStack {
                 Text("Book Name:")

@@ -22,12 +22,9 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(books) { book in
-                    NavigationLink {
-                        Text("WIP \(book.name!)")
-                        Image(uiImage: UIImage(data: book.image!)!)
-                            .resizable()
-                            .frame(width: 50, height: 50)
-                    } label: {
+                    NavigationLink (
+                        destination: BookView(bookImage: UIImage(data: book.image!)!, bookName: book.name!, bookAuthor: book.author!, bookYear: String(book.year), bookPageCount: String(book.totalpage))
+                    ) {
                         Text(book.name!)
                     }
                 }
@@ -58,11 +55,5 @@ struct ContentView: View {
             }
         }
         
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
