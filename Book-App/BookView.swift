@@ -20,14 +20,15 @@ struct BookView: View {
             
             Image(uiImage: bookImage)
                 .resizable()
-                .frame(width: 200, height: 300)
+                .aspectRatio(0.66,  contentMode: .fit)
             
             Text(bookName)
-            Text(bookAuthor)
-            Text(bookYear)
-            Text(bookPageCount)
+            Text("Author: \(bookAuthor)")
+            Text("Year: \(bookYear)")
+            Text("Total Page: \(bookPageCount)")
         }
-        .padding(.horizontal, 20)
+        .navigationBarTitle("", displayMode: .inline)
+        .font(.system(size: 24))
         .foregroundColor(Color.black)
     }
 }
